@@ -1,27 +1,36 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30114.105
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MailFlowISAPI", "MailFlowISAPI\MailFlowISAPI.vcxproj", "{D1B2A3E4-5C6D-4E7F-8A90-ABCDEF012345}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MailFlowSuperUtility", "MailFlowSuperUtility.csproj", "{2C8C7C8A-EBE3-4E8B-9D1F-9FC8C9F4E5C6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Win32 = Debug|Win32
+		Debug|Any CPU = Debug|Any CPU
 		Debug|x64 = Debug|x64
-		Release|Win32 = Release|Win32
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
+		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D1B2A3E4-5C6D-4E7F-8A90-ABCDEF012345}.Debug|Win32.ActiveCfg = Debug|Win32
-		{D1B2A3E4-5C6D-4E7F-8A90-ABCDEF012345}.Debug|Win32.Build.0 = Debug|Win32
-		{D1B2A3E4-5C6D-4E7F-8A90-ABCDEF012345}.Debug|x64.ActiveCfg = Debug|x64
-		{D1B2A3E4-5C6D-4E7F-8A90-ABCDEF012345}.Debug|x64.Build.0 = Debug|x64
-		{D1B2A3E4-5C6D-4E7F-8A90-ABCDEF012345}.Release|Win32.ActiveCfg = Release|Win32
-		{D1B2A3E4-5C6D-4E7F-8A90-ABCDEF012345}.Release|Win32.Build.0 = Release|Win32
-		{D1B2A3E4-5C6D-4E7F-8A90-ABCDEF012345}.Release|x64.ActiveCfg = Release|x64
-		{D1B2A3E4-5C6D-4E7F-8A90-ABCDEF012345}.Release|x64.Build.0 = Release|x64
+		{2C8C7C8A-EBE3-4E8B-9D1F-9FC8C9F4E5C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C8C7C8A-EBE3-4E8B-9D1F-9FC8C9F4E5C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C8C7C8A-EBE3-4E8B-9D1F-9FC8C9F4E5C6}.Debug|x64.ActiveCfg = Debug|x64
+		{2C8C7C8A-EBE3-4E8B-9D1F-9FC8C9F4E5C6}.Debug|x64.Build.0 = Debug|x64
+		{2C8C7C8A-EBE3-4E8B-9D1F-9FC8C9F4E5C6}.Debug|x86.ActiveCfg = Debug|x86
+		{2C8C7C8A-EBE3-4E8B-9D1F-9FC8C9F4E5C6}.Debug|x86.Build.0 = Debug|x86
+		{2C8C7C8A-EBE3-4E8B-9D1F-9FC8C9F4E5C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C8C7C8A-EBE3-4E8B-9D1F-9FC8C9F4E5C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C8C7C8A-EBE3-4E8B-9D1F-9FC8C9F4E5C6}.Release|x64.ActiveCfg = Release|x64
+		{2C8C7C8A-EBE3-4E8B-9D1F-9FC8C9F4E5C6}.Release|x64.Build.0 = Release|x64
+		{2C8C7C8A-EBE3-4E8B-9D1F-9FC8C9F4E5C6}.Release|x86.ActiveCfg = Release|x86
+		{2C8C7C8A-EBE3-4E8B-9D1F-9FC8C9F4E5C6}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A6C7B4D1-1142-4B6C-AB42-2C9F50D3AC0E}
 	EndGlobalSection
 EndGlobal
