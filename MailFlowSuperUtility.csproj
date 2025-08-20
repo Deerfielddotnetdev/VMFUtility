@@ -1,27 +1,17 @@
-<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
   <PropertyGroup>
-    <!-- Console app so your menu shows in a terminal -->
+    <!-- Console app + WinForms -->
     <OutputType>Exe</OutputType>
-
-    <!-- Target .NET 8 for Windows -->
-    <TargetFramework>net8.0-windows</TargetFramework>
+    <TargetFramework>net48</TargetFramework>
     <UseWindowsForms>true</UseWindowsForms>
-    <EnableWindowsTargeting>true</EnableWindowsTargeting>
 
     <!-- Names/branding -->
     <AssemblyName>MailFlowSuperUtility</AssemblyName>
     <RootNamespace>MailFlowSuperUtility</RootNamespace>
 
-    <!-- Build platforms visible in VS configs -->
-    <Platforms>AnyCPU;x86;x64</Platforms>
-
-    <!-- Optional, since your code isn’t annotated for NRTs/implicit usings -->
+    <!-- Keep things simple for existing code -->
     <ImplicitUsings>disable</ImplicitUsings>
     <Nullable>disable</Nullable>
   </PropertyGroup>
-
-  <ItemGroup>
-    <!-- Needed for System.Data.SqlClient on .NET 6/7/8 -->
-    <PackageReference Include="System.Data.SqlClient" Version="4.8.5" />
-  </ItemGroup>
+  <!-- No PackageReference needed: System.Data.SqlClient is in .NET Framework -->
 </Project>
